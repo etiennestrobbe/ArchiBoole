@@ -1,8 +1,0 @@
-library IEEE;
-use ieee.std_logic_1164.all;
-
-entity mux2n is
-	
-	
-	
-end mux2n;
