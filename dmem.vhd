@@ -21,10 +21,11 @@ BEGIN -- dmem_arc
 	begin
 		int_adr := Conv_Integer(adr);
 		if (int_adr <= 63) then -- car le tableau déclaré a une dimension de 64
-			IF (r_w = '0') THEN
+			IF (r_w = '1') THEN
 				data_out <= mem_data(int_adr);
-			elsif r_w ='1' then
+			elsif r_w ='0' then
 				mem_data(int_adr) := data_in ;
+				data_out <= mem_data(int_adr);
 			END IF;
 		end if;
 	end process;
