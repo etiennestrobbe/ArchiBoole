@@ -172,28 +172,6 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 160 144 336 224)
-	(text "imem" (rect 5 0 32 12)(font "Arial" ))
-	(text "inst4" (rect 8 64 31 76)(font "Arial" ))
-	(port
-		(pt 0 32)
-		(input)
-		(text "iadr[7..0]" (rect 0 0 43 12)(font "Arial" ))
-		(text "iadr[7..0]" (rect 21 27 64 39)(font "Arial" ))
-		(line (pt 0 32)(pt 16 32)(line_width 3))
-	)
-	(port
-		(pt 176 32)
-		(output)
-		(text "instr[15..0]" (rect 0 0 53 12)(font "Arial" ))
-		(text "instr[15..0]" (rect 111 27 164 39)(font "Arial" ))
-		(line (pt 176 32)(pt 160 32)(line_width 3))
-	)
-	(drawing
-		(rectangle (rect 16 16 160 64))
-	)
-)
-(symbol
 	(rect -184 144 24 256)
 	(text "pc" (rect 5 0 16 12)(font "Arial" ))
 	(text "inst1" (rect 8 96 31 108)(font "Arial" ))
@@ -327,6 +305,28 @@ applicable agreement for further details.
 		(rectangle (rect 16 16 208 96))
 	)
 	(annotation_block (parameter)(rect 944 208 1140 236))
+)
+(symbol
+	(rect 160 144 336 224)
+	(text "imem" (rect 5 0 32 12)(font "Arial" ))
+	(text "inst4" (rect 8 64 31 76)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "iadr[7..0]" (rect 0 0 43 12)(font "Arial" ))
+		(text "iadr[7..0]" (rect 21 27 64 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 176 32)
+		(output)
+		(text "instr[15..0]" (rect 0 0 53 12)(font "Arial" ))
+		(text "instr[15..0]" (rect 111 27 164 39)(font "Arial" ))
+		(line (pt 176 32)(pt 160 32)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 16 16 160 64))
+	)
 )
 (connector
 	(pt 1016 64)
