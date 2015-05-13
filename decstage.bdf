@@ -39,7 +39,7 @@ applicable agreement for further details.
 	(input)
 	(rect 120 320 288 336)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "rs1[3..0]" (rect 5 0 47 12)(font "Arial" ))
+	(text "rs1[3..0]" (rect 5 0 46 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -55,7 +55,7 @@ applicable agreement for further details.
 	(input)
 	(rect 56 -352 224 -336)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "code_op[3..0]" (rect 5 0 73 12)(font "Arial" ))
+	(text "code_op[3..0]" (rect 5 0 72 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -71,7 +71,7 @@ applicable agreement for further details.
 	(input)
 	(rect -104 520 64 536)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "data_im[7..0]" (rect 5 0 70 12)(font "Arial" ))
+	(text "data_im[7..0]" (rect 5 0 69 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -119,7 +119,7 @@ applicable agreement for further details.
 	(input)
 	(rect 744 272 912 288)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "rs2[3..0]" (rect 5 0 47 12)(font "Arial" ))
+	(text "rs2[3..0]" (rect 5 0 46 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -135,7 +135,7 @@ applicable agreement for further details.
 	(input)
 	(rect 744 288 912 304)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "rd_wb[3..0]" (rect 5 0 60 12)(font "Arial" ))
+	(text "rd_wb[3..0]" (rect 5 0 59 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -151,7 +151,7 @@ applicable agreement for further details.
 	(input)
 	(rect 736 424 904 440)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "clk" (rect 5 0 20 12)(font "Arial" ))
+	(text "clk" (rect 5 0 19 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -167,7 +167,7 @@ applicable agreement for further details.
 	(input)
 	(rect 488 536 656 552)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "PIO_in[15..0]" (rect 5 0 70 12)(font "Arial" ))
+	(text "PIO_in[15..0]" (rect 5 0 69 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -1097,12 +1097,6 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(text "ctrls[12..9]" (rect 1712 -128 1765 -116)(font "Arial" ))
-	(pt 1712 -112)
-	(pt 1768 -112)
-	(bus)
-)
-(connector
 	(text "ctrls_de[7..6]" (rect 1720 -176 1784 -164)(font "Arial" ))
 	(pt 1712 -160)
 	(pt 1768 -160)
@@ -1177,6 +1171,12 @@ applicable agreement for further details.
 (connector
 	(pt 480 -184)
 	(pt 544 -184)
+)
+(connector
+	(text "ctrls_de[12..9]" (rect 1712 -128 1782 -116)(font "Arial" ))
+	(pt 1712 -112)
+	(pt 1768 -112)
+	(bus)
 )
 (junction (pt 1240 136))
 (junction (pt 368 264))
